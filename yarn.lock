@@ -303,6 +303,35 @@ ecc-jsbn@~0.1.1:
     jsbn "~0.1.0"
     safer-buffer "^2.1.0"
 
+electroneum-crypto@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/electroneum-crypto/-/electroneum-crypto-0.0.1.tgz#284782a4d229402e3196d6b2166c7aed7415994f"
+  integrity sha512-5hqPFiGklKGV8K9MnhP63hyMAwI9ftV62h+Xf/ubpf21BQw/lYy4lzR5Zpi0PaFkCRXUmTys1oss7nig9uio8w==
+  dependencies:
+    bindings "^1.5.0"
+    nan "^2.14.0"
+
+electroneum-rpc@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/electroneum-rpc/-/electroneum-rpc-0.0.2.tgz#a8b8d8fe91bf2c46087ba73a43885d9666cac894"
+  integrity sha512-aZ4fOXVOVVD7lMQprVPqXnMXok/XM9/fdXe6x/4jjhW6fib0P97rvb7VE7x9NFTD0LuadFRE3pS9dSVODVo7Aw==
+  dependencies:
+    request "^2.88.0"
+    request-promise-native "^1.0.7"
+
+electroneum-utils@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/electroneum-utils/-/electroneum-utils-0.0.2.tgz#85298cc835b05141462360659f58c6c12475ed13"
+  integrity sha512-TxwlbyFO/iylUmZ8njNiWr2vENyYsfzDSn/r8gms5S8Q/pHfAoeT8Zr7kJ0kyZGCxxZ5ar+cllEN9WG2bxvEMw==
+  dependencies:
+    crc "^3.8.0"
+    get-random-values "^1.2.0"
+    numeral "^2.0.6"
+    secure-random-string "^1.1.0"
+    varint "^5.0.0"
+  optionalDependencies:
+    electroneum-crypto "^0.0.1"
+
 escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
@@ -920,35 +949,6 @@ tunnel-agent@^0.6.0:
   integrity sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=
   dependencies:
     safe-buffer "^5.0.1"
-
-turtlecoin-crypto@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/turtlecoin-crypto/-/turtlecoin-crypto-3.0.4.tgz#8df1856bc79a86591e7e456c462205f5499d055e"
-  integrity sha512-wbRXc0XI4vdXxgan6P0vkEnY/EME0I1Y+xAlsIq4/fUi1VkRBdVN50J35LrkVAHAgz/D3J3k9OLvl+AbrKmyUA==
-  dependencies:
-    bindings "^1.5.0"
-    nan "^2.14.0"
-
-turtlecoin-rpc@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/turtlecoin-rpc/-/turtlecoin-rpc-1.0.1.tgz#d41a3ff904ed8437cf8f67b1c10fb9e27ae0b932"
-  integrity sha512-3U0FDbbM3+Es/Asd6QwQY/WWrVWknhyxEFfFuuBYd2KBncfqdQXoxzjLMGIOSSiCSl4PdFIxhxEaKY/EfQGKmw==
-  dependencies:
-    request "^2.88.0"
-    request-promise-native "^1.0.7"
-
-turtlecoin-utils@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/turtlecoin-utils/-/turtlecoin-utils-1.0.3.tgz#6eb98c11699281b73ff15bf51befdc9c143c7dad"
-  integrity sha512-QsEkbgE0FJ2RQUvoG4pXHtBVPpX9gfd53zQ0Dj3cME4lSnirZDpVOmGWnCrTIezZgraJdDXTPjJT7gSvuZthzQ==
-  dependencies:
-    crc "^3.8.0"
-    get-random-values "^1.2.0"
-    numeral "^2.0.6"
-    secure-random-string "^1.1.0"
-    varint "^5.0.0"
-  optionalDependencies:
-    turtlecoin-crypto "^3.0.4"
 
 tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
