@@ -1,6 +1,6 @@
 {
   "name": "electroneum-wallet-backend",
-  "version": "3.4.9",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",
@@ -23,8 +23,8 @@
     "lodash": "^4.17.15",
     "object-sizeof": "^1.4.0",
     "pbkdf2": "^3.0.17",
-    "electroneum-rpc": "^1.0.1",
-    "electroneum-utils": "^1.0.3",
+    "electroneum-rpc": "0.0.1",
+    "electroneum-utils": "0.0.1",
     "typescript": "^3.5.3"
   },
   "devDependencies": {
